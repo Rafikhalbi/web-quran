@@ -1,0 +1,35 @@
+.home-img {
+    width: 30%;
+    height: 250px;
+}
+
+.listItem2 {
+    list-style: none;
+    font-size: 9px;
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border-top: none;
+    border-right: none;
+    /*border-radius: 5px;*/
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);*/
+    font-size: 16px;
+}
+
+.search-box input[type="text"]:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 576px) {
+    .home-img {
+        height: 100px;
+    }
+}
