@@ -31,7 +31,7 @@ for (let i = 1; i <= 114; i++) {
 
             newUL.addEventListener("click", () => {
                 window.location.href =
-                    "../../read/surah.html?surah=" + dataArray[5];
+                    "../../web-quran/read/surah.html?surah=" + dataArray[5];
             });
         })
         .catch((error) => console.error(error));
